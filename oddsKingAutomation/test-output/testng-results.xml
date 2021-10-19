@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T19:37:40Z" name="Suite" finished-at="2021-10-19T19:38:13Z" duration-ms="32359">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T19:37:40Z" name="Test1" finished-at="2021-10-19T19:37:41Z" duration-ms="937">
+      <class name="com.oddskings.testScripts.CountryCountValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.oddskings.testScripts.CountryCountValidation@35645047]" started-at="2021-10-19T19:37:40Z" name="setup" finished-at="2021-10-19T19:37:41Z" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="applicationCode()[pri:0, instance:com.oddskings.testScripts.CountryCountValidation@35645047]" started-at="2021-10-19T19:37:41Z" name="applicationCode" finished-at="2021-10-19T19:37:41Z" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationCode -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.oddskings.testScripts.CountryCountValidation@35645047]" started-at="2021-10-19T19:37:41Z" name="quit" finished-at="2021-10-19T19:37:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.oddskings.testScripts.CountryCountValidation -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-10-19T19:37:41Z" name="Test2" finished-at="2021-10-19T19:37:42Z" duration-ms="168">
+      <class name="com.oddskings.testScripts.ServiceKeyValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.oddskings.testScripts.ServiceKeyValidation@7a220c9a]" started-at="2021-10-19T19:37:41Z" name="setup" finished-at="2021-10-19T19:37:41Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="applicationCode()[pri:0, instance:com.oddskings.testScripts.ServiceKeyValidation@7a220c9a]" started-at="2021-10-19T19:37:41Z" name="applicationCode" finished-at="2021-10-19T19:37:42Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationCode -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.oddskings.testScripts.ServiceKeyValidation@7a220c9a]" started-at="2021-10-19T19:37:42Z" name="quit" finished-at="2021-10-19T19:37:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.oddskings.testScripts.ServiceKeyValidation -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-10-19T19:37:42Z" name="Test3" finished-at="2021-10-19T19:38:03Z" duration-ms="21683">
+      <class name="com.oddskings.testScripts.RegistrationPageValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:42Z" name="setup" finished-at="2021-10-19T19:37:46Z" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchUrl()[pri:1, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:46Z" name="launchUrl" finished-at="2021-10-19T19:37:46Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="enterAccountPageDetails()[pri:2, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:46Z" name="enterAccountPageDetails" finished-at="2021-10-19T19:37:50Z" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAccountPageDetails -->
+        <test-method signature="enterPersonalPageDetails()[pri:3, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:50Z" name="enterPersonalPageDetails" finished-at="2021-10-19T19:37:50Z" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPersonalPageDetails -->
+        <test-method signature="enterContactPageDetails()[pri:4, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:50Z" name="enterContactPageDetails" finished-at="2021-10-19T19:37:52Z" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterContactPageDetails -->
+        <test-method signature="enterAddressPageDetails()[pri:5, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:52Z" name="enterAddressPageDetails" finished-at="2021-10-19T19:37:56Z" duration-ms="4727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddressPageDetails -->
+        <test-method signature="enterSettingsPageDetails()[pri:6, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:56Z" name="enterSettingsPageDetails" finished-at="2021-10-19T19:37:59Z" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSettingsPageDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.oddskings.testScripts.RegistrationPageValidation@106cc338]" started-at="2021-10-19T19:37:59Z" name="quit" finished-at="2021-10-19T19:38:03Z" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.oddskings.testScripts.RegistrationPageValidation -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-10-19T19:38:03Z" name="Test4" finished-at="2021-10-19T19:38:13Z" duration-ms="9545">
+      <class name="com.oddskings.testScripts.FilterResultsValidation">
+        <test-method is-config="true" signature="createTestResultFile()[pri:0, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:37:40Z" name="createTestResultFile" finished-at="2021-10-19T19:37:40Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestResultFile -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:03Z" name="setup" finished-at="2021-10-19T19:38:06Z" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickResult()[pri:1, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:06Z" name="clickResult" finished-at="2021-10-19T19:38:07Z" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickResult -->
+        <test-method signature="filterResult()[pri:2, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:07Z" name="filterResult" finished-at="2021-10-19T19:38:07Z" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResult -->
+        <test-method signature="validateResult()[pri:3, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:07Z" name="validateResult" finished-at="2021-10-19T19:38:09Z" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:09Z" name="quit" finished-at="2021-10-19T19:38:13Z" duration-ms="4112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="doNothing()[pri:0, instance:com.oddskings.testScripts.FilterResultsValidation@78d6692f]" started-at="2021-10-19T19:38:13Z" name="doNothing" finished-at="2021-10-19T19:38:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doNothing -->
+      </class> <!-- com.oddskings.testScripts.FilterResultsValidation -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>

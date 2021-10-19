@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+  <test name="Test1">
+    <classes>
+      <class name="com.oddskings.testScripts.CountryCountValidation"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test2">
+    <classes>
+      <class name="com.oddskings.testScripts.ServiceKeyValidation"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test3">
+    <classes>
+     <class name="com.oddskings.testScripts.RegistrationPageValidation"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test4">
+    <classes>
+      <class name="com.oddskings.testScripts.FilterResultsValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+      
+      
+      

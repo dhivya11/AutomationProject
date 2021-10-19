@@ -1,0 +1,31 @@
+2021-10-19 20:37:40,889 [main] INFO serviceKeyValidation - ---------------------------Start of TestCase-----------------------------------
+2021-10-19 20:37:41,498 [main] INFO serviceKeyValidation - URL is http://affiliate-feed.petfre.sgp.bet/1/countries?languageCode=en
+2021-10-19 20:37:41,589 [main] INFO serviceKeyValidation - Final Country Count for Language en is 173
+2021-10-19 20:37:41,590 [main] INFO serviceKeyValidation - Countries count is Matching
+2021-10-19 20:37:41,724 [main] INFO serviceKeyValidation - URL is http://affiliate-feed.petfre.sgp.bet/1/countries?languageCode=es
+2021-10-19 20:37:41,751 [main] INFO serviceKeyValidation - Final Country Count for Language es is 173
+2021-10-19 20:37:41,751 [main] INFO serviceKeyValidation - Countries count is Matching
+2021-10-19 20:37:41,774 [main] INFO serviceKeyValidation - URL is http://affiliate-feed.petfre.sgp.bet/1/countries?languageCode=bg
+2021-10-19 20:37:41,794 [main] INFO serviceKeyValidation - Final Country Count for Language bg is 173
+2021-10-19 20:37:41,794 [main] INFO serviceKeyValidation - Countries count is Matching
+2021-10-19 20:37:41,822 [main] INFO serviceKeyValidation - ---------------------------End of TestCase-----------------------------------
+2021-10-19 20:37:41,836 [main] INFO serviceKeyValidation - ---------------------------Start of TestCase-----------------------------------
+2021-10-19 20:37:41,976 [main] INFO serviceKeyValidation - Service Response is OK
+2021-10-19 20:37:42,003 [main] INFO serviceKeyValidation - ---------------------------End of TestCase-----------------------------------
+2021-10-19 20:37:42,013 [main] INFO serviceKeyValidation - ---------------------------Start of TestCase-----------------------------------
+2021-10-19 20:37:46,114 [main] INFO serviceKeyValidation - Launching URL - Passed
+2021-10-19 20:37:50,025 [main] INFO serviceKeyValidation - Enter Account details page - Passed
+2021-10-19 20:37:50,630 [main] INFO serviceKeyValidation - Enter Personal details page - Passed
+2021-10-19 20:37:52,117 [main] INFO serviceKeyValidation - Enter Contact details page - Passed
+2021-10-19 20:37:56,844 [main] INFO serviceKeyValidation - Enter Address details page - Passed
+2021-10-19 20:37:59,580 [main] INFO serviceKeyValidation - User Registration - Passed
+2021-10-19 20:38:03,693 [main] INFO serviceKeyValidation - ---------------------------End of TestCase-----------------------------------
+2021-10-19 20:38:03,700 [main] INFO serviceKeyValidation - ---------------------------Start of TestCase-----------------------------------
+2021-10-19 20:38:07,526 [main] INFO serviceKeyValidation - User has entered filter page - Passed
+2021-10-19 20:38:09,057 [main] INFO serviceKeyValidation - Filter has happened correctly for element 13 Oct
+2021-10-19 20:38:09,070 [main] INFO serviceKeyValidation - Filter has happened correctly for element 13 Oct
+2021-10-19 20:38:09,082 [main] INFO serviceKeyValidation - Filter has happened correctly for element 13 Oct
+2021-10-19 20:38:09,095 [main] INFO serviceKeyValidation - Filter has happened correctly for element 16 Oct
+2021-10-19 20:38:09,108 [main] INFO serviceKeyValidation - Filter has happened correctly for element 16 Oct
+2021-10-19 20:38:09,119 [main] INFO serviceKeyValidation - Filter has happened correctly for element 16 Oct
+2021-10-19 20:38:13,243 [main] INFO serviceKeyValidation - ---------------------------End of TestCase-----------------------------------

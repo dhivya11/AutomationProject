@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Testing Oddskings Apps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FuntionalTesting1(failed)">
+    <classes>
+      <class name="com.oddskings.testScripts.RegistrationPageValidation">
+        <methods>
+          <include name="enterAccountPageDetails"/>
+          <include name="createTestResultFile"/>
+          <include name="enterSettingsPageDetails"/>
+          <include name="enterPersonalPageDetails"/>
+          <include name="launchUrl"/>
+          <include name="quit"/>
+          <include name="enterAddressPageDetails"/>
+          <include name="enterContactPageDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.oddskings.testScripts.RegistrationPageValidation -->
+    </classes>
+  </test> <!-- FuntionalTesting1(failed) -->
+  <test thread-count="5" name="FuntionalTesting2(failed)">
+    <classes>
+      <class name="com.oddskings.testScripts.FilterResultsValidation">
+        <methods>
+          <include name="filterResult"/>
+          <include name="clickResult"/>
+          <include name="createTestResultFile"/>
+          <include name="validateResult"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.oddskings.testScripts.FilterResultsValidation -->
+    </classes>
+  </test> <!-- FuntionalTesting2(failed) -->
+</suite> <!-- Failed suite [Testing Oddskings Apps] -->

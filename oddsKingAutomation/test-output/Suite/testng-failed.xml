@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.oddskings.testScripts.CountryCountValidation">
+        <methods>
+          <include name="createTestResultFile"/>
+          <include name="doNothing"/>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="applicationCode"/>
+        </methods>
+      </class> <!-- com.oddskings.testScripts.CountryCountValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
